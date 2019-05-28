@@ -14,11 +14,12 @@
 //also make sure to include "iostream" library in your header file, it is needed for evaluation.
 
 
+#ifndef UNTITLED1_LESSON_H
+#define UNTITLED1_LESSON_H
 
 #include <unistd.h>
 #include <iostream>
 #include <stdio.h>
-
 
 int sum (int a, int b);
 int diff (int a, int b);
@@ -28,3 +29,5 @@ int is_odd (int a);
 int max (int a, int b);
 int min (int a, int b);
 int abs (int a);
+
+#endif
