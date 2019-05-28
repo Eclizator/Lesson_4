@@ -22,7 +22,7 @@ int pow (int a, int b) {
     return result;
 }
 
-int is_odd(int a) {
+int is_odd (int a) {
     if(a % 2) {
         return true;
     }
