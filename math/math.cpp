@@ -25,25 +25,25 @@ int pow (int a, int b) {
 int is_odd(int a) {
     if( a % 2 ){
         return true;
-    } else{
-        return false;
     }
+    return false;
+
 }
 
 int max (int a, int b){
     if (a > b){
         return a;
-    } else {
-        return b;
     }
+    return b;
+
 }
 
 int min (int a, int b){
     if (a < b){
         return a;
-    } else {
-        return b;
     }
+    return b;
+
 }
 
 int abs (int a) {
