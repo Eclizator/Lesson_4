@@ -20,11 +20,11 @@
 #include <stdio.h>
 
 
-int sum (int a, int b);
-int diff (int a, int b);
-int multiply (int a, int b);
-int pow (int a, int b);
-int is_odd (int a);
-int max (int a, int b);
-int min (int a, int b);
-int abs (int a);
+int sum(int a, int b);
+int diff(int a, int b);
+int multiply(int a, int b);
+int pow(int a, int b);
+int is_odd(int a);
+int max(int a, int b);
+int min(int a, int b);
+int abs(int a);

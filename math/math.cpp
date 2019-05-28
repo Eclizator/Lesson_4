@@ -15,7 +15,7 @@ int multiply (int a, int b) {
 int pow (int a, int b) {
    int result = 1;
    int i = 0;
-   while( i < b ){
+   while(i < b) {
        result = result * a;
        i++;
    }
@@ -23,23 +23,23 @@ int pow (int a, int b) {
 }
 
 int is_odd(int a) {
-    if( a % 2 ){
+    if(a % 2) {
         return true;
     }
     return false;
 
 }
 
-int max (int a, int b){
-    if (a > b){
+int max (int a, int b) {
+    if (a > b) {
         return a;
     }
     return b;
 
 }
 
-int min (int a, int b){
-    if (a < b){
+int min (int a, int b) {
+    if (a < b) {
         return a;
     }
     return b;
@@ -47,7 +47,7 @@ int min (int a, int b){
 }
 
 int abs (int a) {
-    if (a > 0){
+    if (a > 0) {
         return a;
     }
     return -a;
